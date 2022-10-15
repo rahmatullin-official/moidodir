@@ -9,55 +9,50 @@
  <head>
  	<meta charset="UTF-8">
  	<link rel="stylesheet" href="css/style.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+  <link 
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+  />  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
  	<title>Document</title>
  </head>
  <body>
- 	<div class="col-md-6">
- 		<div>
-  			<canvas id="myChart" width="400px" height="400px"></canvas>
-		</div>
- 	</div>	
- 	<a href="../auth/logout.php">Выйти</a>
- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
- <script>
-  const labels = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-  ];
+  <div class="container">
+    <header>
+      <div id="header_container">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">Мой профиль</a></li>
+            <li><a class="menu__item" href="#">Как это работает?</a></li>
+            <li><a class="menu__item" href="#">О нас</a></li>
+            <li><a class="menu__item" href="#">Статистика</a></li>
+            <li><a class="menu__item" href="#">Новости</a></li>
+          </ul>
+        </div>
+        <h1 class="content-header_title">
+          мойдодыр
+        </h1>
+      </div>
+      
+    </header>
 
-  const data = {
-    labels: labels,
-    datasets: [{
-      label: 'My First dataset',
-      backgroundColor: [
-      'rgb(255, 99, 132)',
-      'rgb(54, 162, 235)',
-      'rgb(255, 205, 86)'
-    ],
-      borderColor: 'rgb(255, 99, 132)',
-      data: [11, 10, 5, 2, 20, 30],
-    }]
-  };
+  </div>
+ 
 
-  const config = {
-    type: 'doughnut',
-    data: data,
-    options: {}
-  };
-</script>
-<script>
-  const myChart = new Chart(
-    document.getElementById('myChart'),
-    config
-  );
-</script>
+
+
+
+ 	<!-- <a href="../auth/logout.php">Выйти</a> -->
+ 
  </body>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  </html>
