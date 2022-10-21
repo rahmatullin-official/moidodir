@@ -35,19 +35,29 @@
       <div class="logo">
         <img src="css/logo.png" alt="(((">
       </div>
+      <div class="userName">
+        Дамир Рахматуллин
+      </div>
       <div class="profile_pic">
         <img src="css/images.jpeg" alt=")))">
       </div>
     </header>
-    <div class="navigation">
-        <ul class="nav">
-            <li><a href="#">Мой профиль</a></li>
-            <li><a href="#">Как это работает?</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Статистика</a></li>
-            <li><a href="#">Новости</a></li>
-        </ul>
+      <div class="mainPartContainer">
+        <div class="navigation">
+          <ul class="nav">
+              <li class="bold"><a href="/personalAccount.php">Мой профиль</a></li>
+              <li><a href="/howItWorks.php">Как это работает?</a></li>
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Статистика</a></li>
+              <li><a href="#">Новости</a></li>
+          </ul>
+        </div>
+      <div class="sideContent">
+
+      </div>
+
     </div>
+    
     
         
   </div>

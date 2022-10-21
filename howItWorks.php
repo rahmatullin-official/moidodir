@@ -35,19 +35,36 @@
       <div class="logo">
         <img src="css/logo.png" alt="(((">
       </div>
+      <div class="userName">
+        Дамир Рахматуллин
+      </div>
       <div class="profile_pic">
         <img src="css/images.jpeg" alt=")))">
       </div>
     </header>
-    <div class="navigation">
-        <ul class="nav">
-            <li><a href="#">Мой профиль</a></li>
-            <li><a href="#">Как это работает?</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Статистика</a></li>
-            <li><a href="#">Новости</a></li>
-        </ul>
+    <div class="mainPartContainer">
+        <div class="navigation">
+            <ul class="nav">
+                <li><a href="/personalAccount.php">Мой профиль</a></li>
+                <li class="bold"><a href="/howItWorks.php">Как это работает?</a></li>
+                <li><a onclick="onClickMenu()" href="#">О нас</a></li>
+                <li><a href="#">Статистика</a></li>
+                <li><a href="#">Новости</a></li>
+            </ul>
+        </div>
+        <div class="sideContent">
+            <p id="howItWorks">
+            Возможно использование различных подходов для распознавания объектов. <br>
+В последнее время методы машинного и глубокого обучения стали популярными подходами к проблемам распознавания объектов. Обе технологии учатся распознавать объекты на изображениях, но они различаются по своему исполнению.
+            </p>
+            <iframe class="video" width="800" height="400" src="https://www.youtube.com/embed/vgbMONXc9Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            
+        </div>
     </div>
-    <div class="howItWorks">
-        
-    </div>
+    <script>
+  function onClickMenu(a) {
+    document.getElementById(a).classList.toggle("change");
+
+  }
+ </script>
