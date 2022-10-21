@@ -1,0 +1,183 @@
+body {
+	background-color: #1f1e1e;
+}
+
+@font-face {
+    font-family: 'Igra Sans';
+    src: local('Igra Sans'), local('IgraSans'), url('Igrasans.woff2') format('woff2'), url('Igrasans.woff') format('woff'), url('Igrasans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2, .edit { 
+	text-align: center;
+	padding-top: 80px;
+}
+
+.form-group {
+	padding-bottom: 10px;
+}
+
+.msg {
+	border: 2px solid #ffa908;
+	border-radius: 3px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}	
+
+header {
+	margin-top: 47px;
+	width: 100%;
+	height: 143px;
+	background: #A2EF00;
+	border-radius: 30px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;	
+	align-items: center;	
+}
+
+main {
+	position: relative;
+	width: 100%;
+	height: 569px;
+	margin-top: 39px;
+	background-color: #ffffff;
+	border-radius: 30px;
+}
+
+.choice {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+	height: 58px;
+	text-align: center;
+	padding-top: 30px;
+	color: #520FAD;
+}
+
+.content-header_title {
+	padding-left: 21px;
+	padding-bottom: 15px;
+	font-family: 'Igra Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 40px;
+	color: #520FAD;
+}
+
+.container {
+	width: 90%;
+	max-width: 1160px;
+	margin: auto;
+}
+
+.nav li a {
+	color: #520FAD;
+	text-decoration: none;
+	
+}
+
+.nav li {
+	list-style: none;
+	padding: 8px 0;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.navigation ul {
+	padding-left: 0;
+}
+.navigation {
+	background-color: #ffffff;
+	height: 265px;
+	margin: 0;
+	position: static;
+	font-size: 24px;
+	line-height: 29px;
+	z-index: 5;
+	width: 283px;
+	font-family: 'Inter', sans-serif;
+	margin-top: 33px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	display:inline-block;
+}
+
+.logo {
+	padding-left: 16px;
+	padding-bottom: 5px;
+}
+
+.profile_pic img {
+	
+	/* padding-right: 20px; */
+	border-radius: 30px;
+	height: 90px;
+	width: 90px;
+	filter: grayscale(1);
+}
+
+.children img {
+	height: 250px;
+	width: 250px;
+	border-radius: 140px;
+	filter: grayscale(1);
+}
+
+.profile_pic {
+	margin-right: 20px;
+	position: absolute;
+	right: 0;
+	top: 18%;
+}
+
+.child_container {
+	display: flex;
+
+}
+
+.children {
+	margin-top: 50px;
+}
+
+#child1 {
+	flex: 1;
+}
+
+#child2 {
+	flex: 1;
+	margin-left: 20px;
+}
+
+.children {
+	text-align: center;
+}
+
+.children_name {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 39px;
+	text-align: center;
+	color: #520FAD;
+}
+
+.howItWorks {
+	width: 847px;
+	height: 638px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	display: inline-block;
+}
