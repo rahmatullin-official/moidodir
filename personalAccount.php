@@ -39,56 +39,25 @@
         <img src="css/images.jpeg" alt=")))">
       </div>
     </header>
-    <main>
-      <h1 class="choice">Выберите ребёнка</h1>
-      <div class="child_container">
-        <div class="children" id="child1">
-          <img src="css/child1.jpg" alt="children">
-          <p class="children_name">
-            Дамир <br> Рахматуллин
-          </p>
-        </div>
-        <div class="children" id="child2">
-          <img src="css/child2.jpg" alt="children">
-          <p class="children_name">
-            Рахмат <br> Дамируллин
-          </p>
-        </div>      
-      </div>
-      
-    </main>
-
-
-
-
-<ul class="nav" id="nav">
+    <div class="navigation">
+        <ul class="nav" id="nav">
             <li><a href="#">Мой профиль</a></li>
             <li><a href="#">Как это работает?</a></li>
             <li><a href="#">О нас</a></li>
             <li><a href="#">Статистика</a></li>
             <li><a href="#">Новости</a></li>
-          </ul>
+        </ul>
+    </div>
+    
         
   </div>
  
 
 
 
-<!-- <div id="navigation">
-          <div id="menu" onclick="onClickMenu()">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-          </div>
-        </div> -->
- 	<!-- <a href="../auth/logout.php">Выйти</a> -->
+ 
+
+ 	 <a href="../auth/logout.php">Выйти</a> -->
  
  </body>
  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
- <script>
-  function onClickMenu() {
-    document.getElementById("nav").classList.toggle("change");
-
-  }
- </script>
- </html>
