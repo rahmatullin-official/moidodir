@@ -48,16 +48,6 @@
             <li><a href="#">Новости</a></li>
         </ul>
     </div>
-    
+    <div class="howItWorks">
         
-  </div>
- 
-
-
-
- 
-
- 	 <a href="../auth/logout.php">Выйти</a> -->
- 
- </body>
- <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    </div>
