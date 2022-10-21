@@ -58,30 +58,6 @@
       
     </main>
 
-
-
-
-<ul class="nav" id="nav">
-            <li><a href="#">Мой профиль</a></li>
-            <li><a href="#">Как это работает?</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Статистика</a></li>
-            <li><a href="#">Новости</a></li>
-          </ul>
-        
-  </div>
- 
-
-
-
-<!-- <div id="navigation">
-          <div id="menu" onclick="onClickMenu()">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-          </div>
-        </div> -->
- 	<!-- <a href="../auth/logout.php">Выйти</a> -->
  
  </body>
  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
