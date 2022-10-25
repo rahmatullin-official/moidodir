@@ -3,13 +3,13 @@ body {
 }
 
 @font-face {
-    font-family: 'Igra Sans';
-    src: local('Igra Sans'), local('IgraSans'), url('Igrasans.woff2') format('woff2'), url('Igrasans.woff') format('woff'), url('Igrasans.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+	font-family: 'Igra Sans';
+	src: local('Igra Sans'), local('IgraSans'), url('Igrasans.woff2') format('woff2'), url('Igrasans.woff') format('woff'), url('Igrasans.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
 }
 
-h2, .edit { 
+h2, .edit {
 	text-align: center;
 }
 
@@ -40,13 +40,23 @@ input {
 	padding-left: 48px;
 }
 
+::placeholder {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #D9D9D9;
+}
+
+
 .msg {
 	border: 2px solid #ffa908;
 	border-radius: 3px;
 	padding: 10px;
 	text-align: center;
 	font-weight: bold;
-}	
+}
 
 header {
 	margin-top: 47px;
@@ -56,8 +66,8 @@ header {
 	border-radius: 30px;
 	position: relative;
 	display: flex;
-	flex-wrap: wrap;	
-	align-items: center;	
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 main {
@@ -105,7 +115,7 @@ main {
 .nav li a {
 	color: #520FAD;
 	text-decoration: none;
-	
+
 }
 
 .nav li {
@@ -144,7 +154,7 @@ main {
 }
 
 .profile_pic img {
-	
+
 	/* padding-right: 20px; */
 	border-radius: 50px;
 	height: 90px;
@@ -219,7 +229,7 @@ main {
 
 .video {
 	margin: 50px auto 20px;
-    display: block;
+	display: block;
 	border-radius: 30px;
 }
 
@@ -247,8 +257,17 @@ main {
 	height: 485px;
 	background-color: #ffffff;
 	border-radius: 30px;
-	
 }
+
+.regMainPartContainer {
+	width: 100%;
+	margin-top: 39px;
+	height: 672px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	padding-bottom: 35px;
+}
+
 .formGroupContainer {
 	display: flex;
 	justify-content: center;
@@ -266,6 +285,10 @@ main {
 	padding-top: 32px;
 }
 
+#regEntrance {
+	margin-bottom: 32px;
+}
+
 #linkToReg {
 	all: unset;
 	font-family: 'Inter';
@@ -275,5 +298,5 @@ main {
 	line-height: 19px;
 	text-decoration-line: underline;
 	color: #520FAD;
+	cursor: pointer;
 }
-
