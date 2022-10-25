@@ -14,6 +14,7 @@
  	<link rel="stylesheet" href="css/style.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/jquery.circliful.css">
 
   <link 
   rel="stylesheet"
@@ -53,8 +54,16 @@
           </ul>
         </div>
       <div class="sideContent">
-
-      </div>
+          <p class="upperText"><span>Никита</span> сегодня вымыл руки на <span>65</span>%</p>
+          <div class="diagramContent">
+              <div class="firstDiagram">
+                  <div class="circlestat" data-dimension="200" data-text="55%" data-width="30" data-fontsize="38" data-percent="55" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+              </div>
+              <div class="secondDiagram">
+                  <div class="circlestat" data-dimension="200" data-text="77%" data-width="30" data-fontsize="38" data-percent="77" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+              </div>
+          </div>
+          </div>
 
     </div>
     
@@ -68,6 +77,12 @@
  
 
  	 <a href="../auth/logout.php">Выйти</a> -->
- 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.circliful.min.js"></script>
+  <script>
+      $(function(){
+          $('.circlestat').circliful();
+      });
+  </script>
  </body>
  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
