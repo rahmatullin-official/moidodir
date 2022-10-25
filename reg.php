@@ -9,7 +9,7 @@ if($_SESSION['user']){
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 	<title>Регистрация</title>
 </head>
 <body>
@@ -18,21 +18,35 @@ if($_SESSION['user']){
 		}
 		unset($_SESSION['message']);
 	?>
-	<form action="auth/register.php" method="POST" class="edit">
-		<div class="form-group">
-			<label>Login</label>
-			<input type="text" name="login" placeholder="Введите логин">
+	<div class="container">
+		<header class="indexHeader">
+			<div>
+				<h1 class="content-header_title">мойдодыр</h1>
+			</div>
+			<div class="logo">
+				<img src="css/logo.png" alt="(((">
+			</div>
+		</header>
+		<div class="regMainPartContainer">
+			<h2 class="entrance" id="regEntrance">Регистрация</h2>
+			<form action="auth/register.php" method="POST" class="edit">
+				<div class="form-group">
+					<input type="text" name="login" placeholder="ФИО">
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<input type="password" name="password" placeholder="Пароль">
+				</div>
+				<div class="form-group">
+					<input type="password" name="confirmPassword" placeholder="Повторите пароль">
+				</div>
+				
+				<button type="submit" class="btn btn-primary" name="doGo">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+				<p id="indexButton"><a href="index.php" >Уже есть аккаунт? Войти</a></p>
+			</form>
 		</div>
-		<div class="form-group">
-			<label>Password</label>
-			<input type="password" name="password" placeholder="Введите пароль">
-		</div>
-		<div class="form-group">
-			<label>Email</label>
-			<input type="email" name="email" placeholder="Введите email">
-		</div>
-		<button type="submit" class="btn btn-primary" name="doGo">Зарегистрироваться</button>
-		<p><a href="index.php">Авторизация</a></p>
-	</form>
+	</div>
 </body>
 </html>
