@@ -59,14 +59,37 @@
           <p class="upperText"><span>Никита</span> сегодня вымыл руки на <span>65</span>%</p>
           <div class="diagramContent">
               <div class="firstDiagram">
+                  <p>За сегодня</p>
                   <div id="circle"></div>
               </div>
               <div class="secondDiagram">
-
+                  <p>За неделю<br>в среднем</p>
+                  <div id="circle2"></div>
               </div>
           </div>
+          <div class="barContent">
+              <div class="chart">
+                  <div class="container_bar">
+                      <div class="pipe">
+                          <div style="width: 40%"></div>
+                      </div>
+                      <p>Класс</p>
+                  </div>
+                 <div class="container_bar">
+                     <div class="pipe">
+                         <div style="width: 38%"></div>
+                     </div>
+                     <p>Параллель</p>
+                 </div>
+                  <div class="container_bar">
+                      <div class="pipe">
+                          <div style="width: 18%"></div>
+                      </div>
+                      <p>Школа</p>
+                  </div>
+              </div>
           </div>
-
+      </div>
     </div>
     
     
@@ -80,9 +103,23 @@
           id: 'circle',
           type: 'simple',
           strokeLinecap: "round",
-          noPercentageSign: true,
-          backgroundCircleWidth: 15,
-          foregroundCircleWidth: 15,
+          noPercentageSign: false,
+          backgroundCircleWidth: 20,
+          foregroundCircleWidth: 20,
+          progressColors: [
+              {percent: 1, color: 'red'},
+              {percent: 30, color: 'orange'},
+              {percent: 60, color: 'green'}
+          ]
+      });
+      circliful.newCircle({
+          percent: 35,
+          id: 'circle2',
+          type: 'simple',
+          strokeLinecap: "round",
+          noPercentageSign: false,
+          backgroundCircleWidth: 20,
+          foregroundCircleWidth: 20,
           progressColors: [
               {percent: 1, color: 'red'},
               {percent: 30, color: 'orange'},
