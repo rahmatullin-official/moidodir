@@ -51,7 +51,7 @@
               <li><a href="/howItWorks.php">Как это работает?</a></li>
               <li><a href="#">О нас</a></li>
               <li><a href="#">Статистика</a></li>
-              <li><a href="#">Новости</a></li>
+              <li><a href="/news.php">Новости</a></li>
           </ul>
         </div>
       <div class="sideContent">
