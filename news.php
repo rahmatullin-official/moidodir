@@ -39,9 +39,25 @@
         <img src="css/images.jpeg" alt=")))">
       </div>
     </header>
+    <div class="mainPartContainer">
+        <div class="navigation">
+            <ul class="nav">
+                <li><a href="/personalAccount.php">Мой профиль</a></li>
+                <li><a href="/howItWorks.php">Как это работает?</a></li>
+                <li><a onclick="onClickMenu()" href="#">О нас</a></li>
+                <li><a href="#">Статистика</a></li>
+                <li class="bold"><a href="/news.php">Новости</a></li>
+            </ul>
+        </div>
+        <div class="newsGrid">
+            <article><div class="artContainer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius minus repellendus aut esse, quas aliquam at sed nulla velit laudantium et qui! Rerum alias quam quos recusandae, officia aperiam sapiente.</div></article>
+            <article><div class="artContainer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae itaque ipsa natus atque ut numquam minus suscipit dignissimos delectus animi odio accusamus libero quo nemo quasi laudantium, obcaecati voluptates?</div></article>
+            <article><div class="artContainer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, odio reiciendis sequi adipisci, fuga perferendis ullam ipsa incidunt, praesentium dolore quod ipsum! Eaque blanditiis possimus voluptas quibusdam molestias. Quibusdam, impedit!</div></article>
+            <article><div class="artContainer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum dignissimos deleniti, aperiam odio eos officia tempora inventore alias voluptatem. Vel consectetur commodi ut molestiae fugit ullam labore veniam quam.</div></article>
+        </div>
+            
+       
+    </div>
 
-
-
-    
 </body>
 </html>
