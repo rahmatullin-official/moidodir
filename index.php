@@ -35,14 +35,15 @@
 			</div>
 			<button type="submit">ВОЙТИ</button><br>
 			<a id="linkToReg" href="reg.php">Нет аккаунта? Зарегистрироваться</a>
-			<?php  if($_SESSION['message']){
+			
+			
+		</form>
+		</div>
+		<?php  if($_SESSION['message']){
 				echo '<p class="msg"> ' . $_SESSION["message"] . ' </p>';
 			}
 			unset($_SESSION['message']);
 			?>
-		</form>
-		</div>
-		
 	</div>
 </body>
 </html>
