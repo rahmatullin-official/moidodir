@@ -3,13 +3,13 @@ body {
 }
 
 @font-face {
-    font-family: 'Igra Sans';
-    src: local('Igra Sans'), local('IgraSans'), url('Igrasans.woff2') format('woff2'), url('Igrasans.woff') format('woff'), url('Igrasans.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+	font-family: 'Igra Sans';
+	src: local('Igra Sans'), local('IgraSans'), url('Igrasans.woff2') format('woff2'), url('Igrasans.woff') format('woff'), url('Igrasans.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
 }
 
-h2, .edit { 
+h2, .edit {
 	text-align: center;
 }
 
@@ -56,8 +56,8 @@ input {
 	padding: 10px;
 	text-align: center;
 	font-weight: bold;
-	margin-top: 50px;
 }	
+
 
 header {
 	margin-top: 47px;
@@ -67,8 +67,8 @@ header {
 	border-radius: 30px;
 	position: relative;
 	display: flex;
-	flex-wrap: wrap;	
-	align-items: center;	
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 main {
@@ -116,7 +116,7 @@ main {
 .nav li a {
 	color: #520FAD;
 	text-decoration: none;
-	
+
 }
 
 .nav li {
@@ -155,7 +155,7 @@ main {
 }
 
 .profile_pic img {
-	
+
 	/* padding-right: 20px; */
 	border-radius: 50px;
 	height: 90px;
@@ -230,7 +230,7 @@ main {
 
 .video {
 	margin: 50px auto 20px;
-    display: block;
+	display: block;
 	border-radius: 30px;
 }
 
