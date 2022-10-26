@@ -2,7 +2,7 @@
 	require_once '../functions/connect.php';
 	session_start();
 
-	$login = $_POST['login'];
+	$login = $_POST['email'];
 	$password = $_POST['password'];
 
 	$check_user = mysqli_query($connect, "SELECT * FROM `users` WHERE `login` = '$login' AND `password` = '$password'"); 
@@ -11,7 +11,6 @@
 		$user = mysqli_fetch_assoc($check_user);
 		$_SESSION['user'] = [
 			'id' => $user['id'],
-			'login' => $user['login'],
 			'email' => $user['email']
 		];
 		header('Location: ../authorized.php');
