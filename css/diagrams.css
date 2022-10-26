@@ -19,6 +19,7 @@
 }
 .firstDiagram {
     flex: 1;
+    padding-left: 96px;
 }
 .secondDiagram {
     flex: 1;

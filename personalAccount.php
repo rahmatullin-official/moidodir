@@ -15,7 +15,8 @@
      <link rel="stylesheet" href="css/diagrams.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/jquery.circliful.css">
+<!--     <link rel="stylesheet" href="css/jquery.circliful.css">-->
+     <link href="css/main.css" rel="stylesheet" type="text/css" />
 
   <link 
   rel="stylesheet"
@@ -58,10 +59,10 @@
           <p class="upperText"><span>Никита</span> сегодня вымыл руки на <span>65</span>%</p>
           <div class="diagramContent">
               <div class="firstDiagram">
-                  <div class="circlestat" data-dimension="200" data-text="55%" data-width="30" data-fontsize="38" data-percent="55" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+                  <div id="circle"></div>
               </div>
               <div class="secondDiagram">
-                  <div class="circlestat" data-dimension="200" data-text="77%" data-width="30" data-fontsize="38" data-percent="77" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+
               </div>
           </div>
           </div>
@@ -79,10 +80,21 @@
 
  	 <a href="../auth/logout.php">Выйти</a> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.circliful.min.js"></script>
+  <script src="js/circliful.js"></script>
   <script>
-      $(function(){
-          $('.circlestat').circliful();
+      circliful.newCircle({
+          percent: 80,
+          id: 'circle',
+          type: 'simple',
+          strokeLinecap: "round",
+          noPercentageSign: true,
+          backgroundCircleWidth: 15,
+          foregroundCircleWidth: 15,
+          progressColors: [
+              {percent: 1, color: 'red'},
+              {percent: 30, color: 'orange'},
+              {percent: 60, color: 'green'}
+          ]
       });
   </script>
  </body>
