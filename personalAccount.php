@@ -63,7 +63,7 @@
                   <div id="circle"></div>
               </div>
               <div class="secondDiagram">
-                  <p>За неделю<br>в среднем</p>
+                  <p>За неделю</p>
                   <div id="circle2"></div>
               </div>
           </div>
@@ -107,13 +107,13 @@
           backgroundCircleWidth: 20,
           foregroundCircleWidth: 20,
           progressColors: [
-              {percent: 1, color: 'red'},
+              {percent: 1, color: '#EF0000'},
               {percent: 30, color: 'orange'},
-              {percent: 60, color: 'green'}
+              {percent: 60, color: '#A2EF00'}
           ]
       });
       circliful.newCircle({
-          percent: 35,
+          percent: 20,
           id: 'circle2',
           type: 'simple',
           strokeLinecap: "round",
@@ -121,9 +121,9 @@
           backgroundCircleWidth: 20,
           foregroundCircleWidth: 20,
           progressColors: [
-              {percent: 1, color: 'red'},
+              {percent: 1, color: '#EF0000'},
               {percent: 30, color: 'orange'},
-              {percent: 60, color: 'green'}
+              {percent: 60, color: '#A2EF00'}
           ]
       });
   </script>
