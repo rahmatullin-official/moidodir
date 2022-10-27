@@ -179,13 +179,14 @@ main {
 
 .child_container {
 	display: flex;
-
 }
 
 .children {
 	margin-top: 50px;
 }
-
+.children a {
+	text-decoration: none;
+}
 #child1 {
 	flex: 1;
 }
