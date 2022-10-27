@@ -43,16 +43,20 @@
       <h1 class="choice">Выберите ребёнка</h1>
       <div class="child_container">
         <div class="children" id="child1">
-          <img src="css/child1.jpg" alt="children">
-          <p class="children_name">
-            Дамир <br> Рахматуллин
-          </p>
+            <a href="myStatistic.php">
+              <img src="css/child1.jpg" alt="children">
+              <p class="children_name">
+                Дамир <br> Рахматуллин
+              </p>
+            </a>
         </div>
         <div class="children" id="child2">
-          <img src="css/child2.jpg" alt="children">
-          <p class="children_name">
-            Рахмат <br> Дамируллин
-          </p>
+          <a href="myStatistic.php">
+            <img src="css/child2.jpg" alt="children">
+            <p class="children_name">
+                Рахмат <br> Дамируллин
+            </p>
+          </a>
         </div>      
       </div>
       
