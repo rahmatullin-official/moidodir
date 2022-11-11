@@ -8,10 +8,12 @@
  <html lang="en">
  <head>
  	<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
- 	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media1.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -28,7 +30,8 @@
  </head>
  <body>
   <div class="container">
-    <header>
+    <div class="headerMedia">
+      <header>
       <div>
         <h1 class="content-header_title">мойдодыр</h1>
       </div>
@@ -42,8 +45,11 @@
         <img src="css/images.jpeg" alt=")))">
       </div>
     </header>
+    </div>
+    
     <div class="mainPartContainer">
-        <div class="navigation">
+      <div class="navigationMedia">
+          <div class="navigation">
             <ul class="nav">
                 <li><a href="/personalAccount.php">Мой профиль</a></li>
                 <li class="bold"><a href="/howItWorks.php">Как это работает?</a></li>
@@ -52,19 +58,24 @@
                 <li><a href="/news.php">Новости</a></li>
             </ul>
         </div>
+      </div>
+      <div class="sideContentMedia">
         <div class="sideContent">
             <p id="howItWorks">
             Возможно использование различных подходов для распознавания объектов. <br>
 В последнее время методы машинного и глубокого обучения стали популярными подходами к проблемам распознавания объектов. Обе технологии учатся распознавать объекты на изображениях, но они различаются по своему исполнению.
             </p>
-            <iframe class="video" width="800" height="400" src="https://www.youtube.com/embed/vgbMONXc9Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video" width="95%" height="400" src="https://www.youtube.com/embed/vgbMONXc9Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
             
         </div>
+      </div>
+        
     </div>
     <script>
   function onClickMenu(a) {
     document.getElementById(a).classList.toggle("change");
 
   }
+  src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"
  </script>
