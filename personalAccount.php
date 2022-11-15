@@ -46,32 +46,38 @@
       </div>
     </header>
       <div class="mainPartContainer">
-        <div class="navigation">
-          <ul class="nav">
-              <li class="bold"><a href="/personalAccount.php">Мой профиль</a></li>
-              <li><a href="/howItWorks.php">Как это работает?</a></li>
-              <li><a href="#">О нас</a></li>
-              <li><a href="#">Статистика</a></li>
-              <li><a href="/news.php">Новости</a></li>
-          </ul>
+        <div class="navigationMedia">
+          <div class="navigation">
+            <ul class="nav">
+                <li class="bold"><a href="/personalAccount.php">Мой профиль</a></li>
+                <li><a href="/howItWorks.php">Как это работает?</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Статистика</a></li>
+                <li><a href="/news.php">Новости</a></li>
+            </ul>
+          </div>
         </div>
-      <div class="sideContent">
-          <p class="upperText"><span>Никита</span> сегодня вымыл руки на <span>65</span>%</p>
-          <div class="diagramContent">
-              <div class="firstDiagram">
-                  <div class="circlestat" data-dimension="200" data-text="55%" data-width="30" data-fontsize="38" data-percent="55" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
-              </div>
-              <div class="secondDiagram">
-                  <div class="circlestat" data-dimension="200" data-text="77%" data-width="30" data-fontsize="38" data-percent="77" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
-              </div>
-          </div>
-          </div>
-
-    </div>
-    
-    
         
+
+      <div class="sideContentMedia">
+          <div class="sideContent">
+            <p class="upperText"><span>Никита</span> сегодня вымыл руки на <span>65</span>%</p>
+            <div class="diagramContent">
+                <div class="firstDiagram">
+                    <div class="circlestat" data-dimension="200" data-text="55%" data-width="30" data-fontsize="38" data-percent="55" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+                </div>
+                <div class="secondDiagram">
+                    <div class="circlestat" data-dimension="200" data-text="77%" data-width="30" data-fontsize="38" data-percent="77" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      
+
+    </div>       
   </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.circliful.min.js"></script>
   <script>

@@ -307,12 +307,12 @@ main {
     grid-auto-rows: 16rem;
     grid-gap: 1rem;
 	margin-top: 33px;
-	margin-left: 62px;
+	margin-left: 32px;
 	
 }
 
 article {
-	max-width: 391px;
+	max-width: 411px;
 	max-height: 265px;
 	border-radius: 30px;
 	background: #FFFFFF;
