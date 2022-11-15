@@ -7,27 +7,21 @@
  <!DOCTYPE html>
  <html lang="en">
  <head>
- 	<meta charset="UTF-8">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
- 	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/diagrams.css">
-  <link rel="stylesheet" href="css/media1.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/jquery.circliful.css">
-
-  <link 
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  <link rel="stylesheet" href="css/jquery.circliful.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
   integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-  />  
+  crossorigin="anonymous" referrerpolicy="no-referrer"/>  
   <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
- 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 	<title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
  </head>
  <body>
   <div class="container">
