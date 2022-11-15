@@ -46,7 +46,7 @@
             <ul class="nav">
                 <li><a href="/personalAccount.php">Мой профиль</a></li>
                 <li><a href="/howItWorks.php">Как это работает?</a></li>
-                <li><a onclick="onClickMenu()" href="#">О нас</a></li>
+                <li><a onclick="onClickMenu()" href="/aboutUs.php">О нас</a></li>
                 <li><a href="#">Статистика</a></li>
                 <li class="bold"><a href="/news.php">Новости</a></li>
             </ul>

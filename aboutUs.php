@@ -52,8 +52,8 @@
           <div class="navigation">
             <ul class="nav">
                 <li><a href="/personalAccount.php">Мой профиль</a></li>
-                <li class="bold"><a href="/howItWorks.php">Как это работает?</a></li>
-                <li><a onclick="onClickMenu()" href="/aboutUs.php">О нас</a></li>
+                <li><a href="/howItWorks.php">Как это работает?</a></li>
+                <li class="bold"><a href="/aboutUs.php">О нас</a></li>
                 <li><a href="#">Статистика</a></li>
                 <li><a href="/news.php">Новости</a></li>
             </ul>
@@ -62,11 +62,8 @@
       <div class="sideContentMedia">
         <div class="sideContent">
             <p class="contentArticle">
-            Возможно использование различных подходов для распознавания объектов. <br>
-В последнее время методы машинного и глубокого обучения стали популярными подходами к проблемам распознавания объектов. Обе технологии учатся распознавать объекты на изображениях, но они различаются по своему исполнению.
+            Имеется множество объектов (ситуаций) и множество возможных ответов (откликов, реакций). Существует некоторая зависимость между ответами и объектами, но она неизвестна. Известна только конечная совокупность прецедентов — пар «объект, ответ», называемая обучающей выборкой. На основе этих данных требуется восстановить неявную зависимость, то есть построить алгоритм, способный для любого возможного входного объекта выдать достаточно точный классифицирующий ответ. Эта зависимость не обязательно выражается аналитически, и здесь нейросети реализуют принцип эмпирически формируемого решения.
             </p>
-            <iframe class="video" width="95%" height="400" src="https://www.youtube.com/embed/vgbMONXc9Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
             
         </div>
       </div>
@@ -79,3 +76,5 @@
   }
   src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"
  </script>
+
+<!-- onclick="onClickMenu()" -->
