@@ -47,6 +47,7 @@
                 <li><a onclick="onClickMenu()" href="#">О нас</a></li>
                 <li><a href="/myStatistic.php">Статистика</a></li>
                 <li class="bold"><a href="/news.php">Новости</a></li>
+                <li><a href="/admin/admin.php">Админ-панель</a></li>
             </ul>
         </div>
         <div class="newsGrid">

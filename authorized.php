@@ -44,13 +44,13 @@
       <div class="child_container">
         <div class="children" id="child1">
             <a href="myStatistic.php">
-              <img src="css/child1.jpg" alt="children">
+              <img src="css/images.jpeg" alt="children">
               <p class="children_name">
-                Дамир <br> Рахматуллин
+                Никита <br> Сентяков
               </p>
             </a>
         </div>
-        <div class="children" id="child2">
+       <!--  <div class="children" id="child2">
           <a href="myStatistic.php">
             <img src="css/child2.jpg" alt="children">
             <p class="children_name">
@@ -58,7 +58,7 @@
             </p>
           </a>
         </div>      
-      </div>
+      </div> -->
       
     </main>
 
