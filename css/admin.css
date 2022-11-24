@@ -3,6 +3,7 @@
     margin-bottom: 20px;
     border: 1px solid #dddddd;
     border-collapse: collapse;
+    margin-top: 5%;
 }
 .table th {
     font-weight: bold;
@@ -13,4 +14,8 @@
 .table td {
     border: 1px solid #dddddd;
     padding: 5px;
+}
+.admin {
+    background: #FFAB00;
+
 }

@@ -39,7 +39,7 @@
         <img src="css/logo.png" alt="(((">
       </div>
       <div class="userName">
-        Дамир Рахматуллин
+        Никита Сентяков
       </div>
       <div class="profile_pic">
         <img src="css/images.jpeg" alt=")))">
@@ -53,10 +53,11 @@
               <li><a href="#">О нас</a></li>
               <li class="bold"><a href="/myStatistic.php">Статистика</a></li>
               <li><a href="/news.php">Новости</a></li>
+              <li><a href="/admin/admin.php">Админ-панель</a></li>
           </ul>
         </div>
       <div class="sideContent">
-          <p class="upperText"><span>Никита</span> сегодня вымыл руки на <span>65</span>%</p>
+          <p class="upperText"><span>Никита</span> сегодня вымыл руки на <span>80</span>%</p>
           <div class="diagramContent">
               <div class="firstDiagram">
                   <p>За сегодня</p>
@@ -71,7 +72,7 @@
               <div class="chart">
                   <div class="container_bar">
                       <div class="pipe">
-                          <div style="width: 40%"></div>
+                          <div style="width: 60%"></div>
                       </div>
                       <p>Класс</p>
                   </div>
