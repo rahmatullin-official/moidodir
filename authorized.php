@@ -44,7 +44,7 @@
       <div class="child_container">
         <div class="children" id="child1">
             <a href="myStatistic.php">
-              <img src="css/images.jpeg" alt="children">
+              <img src="css/user.jpg" alt="children">
               <p class="children_name">
                 Никита <br> Сентяков
               </p>

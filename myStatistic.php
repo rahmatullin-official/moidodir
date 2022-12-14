@@ -42,7 +42,7 @@
         Никита Сентяков
       </div>
       <div class="profile_pic">
-        <img src="css/images.jpeg" alt=")))">
+        <img src="css/user.jpg" alt=")))">
       </div>
     </header>
       <div class="mainPartContainer">
@@ -50,7 +50,7 @@
           <ul class="nav">
               <li><a href="/authorized.php">Мой профиль</a></li>
               <li><a href="/howItWorks.php">Как это работает?</a></li>
-              <li><a href="#">О нас</a></li>
+              <li><a href="/aboutUS.php">О нас</a></li>
               <li class="bold"><a href="/myStatistic.php">Статистика</a></li>
               <li><a href="/news.php">Новости</a></li>
               <li><a href="/admin/admin.php">Админ-панель</a></li>
@@ -92,9 +92,6 @@
           </div>
       </div>
     </div>
-    
-    
-        
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/circliful.js"></script>
@@ -129,4 +126,7 @@
       });
   </script>
  </body>
+ <footer>
+   
+ </footer>
  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
